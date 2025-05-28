@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Degens</title>
+  <link rel="stylesheet" href="../styles/output.css">
+</head>
+
+<body class="bg-[#1B2339]">
+  <header class="bg-[#1B2339] p-4 border-b border-gray-300 ">
+    <div class="container mx-auto px-5 md:px-0">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <div class="flex flex-shrink-0">
+            <img src="/public/images/svg/logo.svg" alt="logo">
+          </div>
+          <span class="text-lg text-white font-bold">THE DEGENS</span>
+        </div>
+        <div class="flex gap-8">
+          <nav>
+            <ul class="lg:flex hidden items-center gap-8 text-white justify-between w-full text-xl capitalize">
+              <li><a href="">home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Get Wassified</a></li>
+              <li><a href="">Get Wassified</a></li>
+              <li><a href="">Roadmap</a></li>
+              <li><a href="">Team</a></li>
+            </ul>
+          </nav>
+          <div class="flex gap-4 max-[400px]:hidden">
+            <a href=""><img src="/public/images/svg/Twitter.svg" alt="Twitter"></a>
+            <a href=""><img src="/public/images/svg/discord.svg" alt="discord"></a>
+          </div>
+          <div class="berger-menu">
+            <div class="berger-icon lg:hidden cursor-pointer">
+              <span></span>
+              <svg id="br-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                aria-labelledby="hamburgerMenu" data-v-a651e6d6="" class="">
+                <g id="List">
+                  <path id="Vector"
+                    d="M28.5742 16C28.5742 16.2652 28.4689 16.5196 28.2813 16.7071C28.0938 16.8946 27.8394 17 27.5742 17H5.57422C5.309 17 5.05465 16.8946 4.86711 16.7071C4.67958 16.5196 4.57422 16.2652 4.57422 16C4.57422 15.7348 4.67958 15.4804 4.86711 15.2929C5.05465 15.1054 5.309 15 5.57422 15H27.5742C27.8394 15 28.0938 15.1054 28.2813 15.2929C28.4689 15.4804 28.5742 15.7348 28.5742 16ZM5.57422 9H27.5742C27.8394 9 28.0938 8.89464 28.2813 8.70711C28.4689 8.51957 28.5742 8.26522 28.5742 8C28.5742 7.73478 28.4689 7.48043 28.2813 7.29289C28.0938 7.10536 27.8394 7 27.5742 7H5.57422C5.309 7 5.05465 7.10536 4.86711 7.29289C4.67958 7.48043 4.57422 7.73478 4.57422 8C4.57422 8.26522 4.67958 8.51957 4.86711 8.70711C5.05465 8.89464 5.309 9 5.57422 9ZM27.5742 23H5.57422C5.309 23 5.05465 23.1054 4.86711 23.2929C4.67958 23.4804 4.57422 23.7348 4.57422 24C4.57422 24.2652 4.67958 24.5196 4.86711 24.7071C5.05465 24.8946 5.309 25 5.57422 25H27.5742C27.8394 25 28.0938 24.8946 28.2813 24.7071C28.4689 24.5196 28.5742 24.2652 28.5742 24C28.5742 23.7348 28.4689 23.4804 28.2813 23.2929C28.0938 23.1054 27.8394 23 27.5742 23Z"
+                    fill="#ffffff"></path>
+                </g>
+              </svg>
+            </div>
+          </div>
+
+        </div>
+        <div id="berger-box" class="hidden w-full absolute top-0 left-0 bg-[#0c183a] ">
+          <div class="berger-content w-full">
+            <div class="berger-items w-full flex flex-col items-end gap-8 pb-28">
+              <div class="flex flex-row justify-between w-full ">
+                <div class="flex items-center gap-2 pl-10 pt-10">
+                  <div class="flex flex-shrink-0 ">
+                    <img src="/public/images/svg/logo.svg" alt="logo">
+                  </div>
+                  <span class="text-lg text-white font-bold">THE DEGENS</span>
+                </div>
+                <div id="close-svg" class="pt-1 flex absolute left-[94%] top-10 cursor-pointer">
+                  <svg data-v-3eec1804="" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"
+                    aria-labelledby="closeMenu" class="">
+                    <path
+                      d="M25.0393 6.95938C25.4305 7.35053 25.4305 7.95899 25.0393 8.35014L17.3901 15.9993L25.0393 23.6486C25.4305 24.0397 25.4305 24.6482 25.0393 25.0393C24.6482 25.4305 24.0397 25.4305 23.6486 25.0393L15.9993 17.3901L8.35014 25.0393C7.95899 25.4305 7.35053 25.4305 6.95938 25.0393C6.56823 24.6482 6.56823 24.0397 6.95938 23.6486L14.6086 15.9993L6.95938 8.35014C6.56823 7.95899 6.56823 7.35053 6.95938 6.95938C7.35053 6.56823 7.95899 6.56823 8.35014 6.95938L15.9993 14.6086L23.6486 6.95938C24.0397 6.56823 24.6482 6.56823 25.0393 6.95938Z"
+                      fill="#ffffff"></path>
+                  </svg>
+                </div>
+              </div>
+              <div class=" w-full py-6 px-10">
+                <ul class="flex flex-col gap-6 text-white font-semibold">
+                  <li class="dropdown navbar-item">
+                    <div class="menu-item-svg flex flex-row justify-between items-center">
+                      home
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                        aria-labelledby="headerArrow" data-v-2b232355="" class="nav-svg">
+                        <path
+                          d="M13.354 6.35403L8.35403 11.354C8.30759 11.4005 8.25245 11.4374 8.19175 11.4626C8.13105 11.4877 8.06599 11.5007 8.00028 11.5007C7.93457 11.5007 7.86951 11.4877 7.80881 11.4626C7.74811 11.4374 7.69296 11.4005 7.64653 11.354L2.64653 6.35403C2.55271 6.26021 2.5 6.13296 2.5 6.00028C2.5 5.8676 2.55271 5.74035 2.64653 5.64653C2.74035 5.55271 2.8676 5.5 3.00028 5.5C3.13296 5.5 3.26021 5.55271 3.35403 5.64653L8.00028 10.2934L12.6465 5.64653C12.693 5.60007 12.7481 5.56322 12.8088 5.53808C12.8695 5.51294 12.9346 5.5 13.0003 5.5C13.066 5.5 13.131 5.51294 13.1917 5.53808C13.2524 5.56322 13.3076 5.60007 13.354 5.64653C13.4005 5.69298 13.4373 5.74813 13.4625 5.80883C13.4876 5.86953 13.5006 5.93458 13.5006 6.00028C13.5006 6.06598 13.4876 6.13103 13.4625 6.19173C13.4373 6.25242 13.4005 6.30757 13.354 6.35403Z"
+                          fill="#ffffff"></path>
+                      </svg>
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="sub-menu">
+                        <ul>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </li>
+                  <li class="dropdown navbar-item">
+                    <div class="menu-item-svg flex flex-row justify-between items-center">
+                      About
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                        aria-labelledby="headerArrow" data-v-2b232355="" class="nav-svg">
+                        <path
+                          d="M13.354 6.35403L8.35403 11.354C8.30759 11.4005 8.25245 11.4374 8.19175 11.4626C8.13105 11.4877 8.06599 11.5007 8.00028 11.5007C7.93457 11.5007 7.86951 11.4877 7.80881 11.4626C7.74811 11.4374 7.69296 11.4005 7.64653 11.354L2.64653 6.35403C2.55271 6.26021 2.5 6.13296 2.5 6.00028C2.5 5.8676 2.55271 5.74035 2.64653 5.64653C2.74035 5.55271 2.8676 5.5 3.00028 5.5C3.13296 5.5 3.26021 5.55271 3.35403 5.64653L8.00028 10.2934L12.6465 5.64653C12.693 5.60007 12.7481 5.56322 12.8088 5.53808C12.8695 5.51294 12.9346 5.5 13.0003 5.5C13.066 5.5 13.131 5.51294 13.1917 5.53808C13.2524 5.56322 13.3076 5.60007 13.354 5.64653C13.4005 5.69298 13.4373 5.74813 13.4625 5.80883C13.4876 5.86953 13.5006 5.93458 13.5006 6.00028C13.5006 6.06598 13.4876 6.13103 13.4625 6.19173C13.4373 6.25242 13.4005 6.30757 13.354 6.35403Z"
+                          fill="#ffffff"></path>
+                      </svg>
+
+                    </div>
+                    <div class="dropdown-content">
+                      <div class="sub-menu">
+                        <ul>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+
+                        </ul>
+                      </div>
+                    </div>
+
+                  </li>
+                  <li class="dropdown navbar-item">
+                    <div class="menu-item-svg flex flex-row justify-between items-center ">
+                      <span>Get Wassified</span>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                        aria-labelledby="headerArrow" data-v-2b232355="" class="nav-svg">
+                        <path
+                          d="M13.354 6.35403L8.35403 11.354C8.30759 11.4005 8.25245 11.4374 8.19175 11.4626C8.13105 11.4877 8.06599 11.5007 8.00028 11.5007C7.93457 11.5007 7.86951 11.4877 7.80881 11.4626C7.74811 11.4374 7.69296 11.4005 7.64653 11.354L2.64653 6.35403C2.55271 6.26021 2.5 6.13296 2.5 6.00028C2.5 5.8676 2.55271 5.74035 2.64653 5.64653C2.74035 5.55271 2.8676 5.5 3.00028 5.5C3.13296 5.5 3.26021 5.55271 3.35403 5.64653L8.00028 10.2934L12.6465 5.64653C12.693 5.60007 12.7481 5.56322 12.8088 5.53808C12.8695 5.51294 12.9346 5.5 13.0003 5.5C13.066 5.5 13.131 5.51294 13.1917 5.53808C13.2524 5.56322 13.3076 5.60007 13.354 5.64653C13.4005 5.69298 13.4373 5.74813 13.4625 5.80883C13.4876 5.86953 13.5006 5.93458 13.5006 6.00028C13.5006 6.06598 13.4876 6.13103 13.4625 6.19173C13.4373 6.25242 13.4005 6.30757 13.354 6.35403Z"
+                          fill="#ffffff"></path>
+                      </svg>
+
+                    </div>
+                    <div class="dropdown-content right-26">
+                      <div class="sub-menu">
+                        <ul>
+                          <li></li>
+                          <li> </li>
+                          <li> </li>
+                          <li> </li>
+                          <li> </li>
+                          <li></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                  </li>
+                  <li class="dropdown navbar-item">
+                    <a class="">
+                      Rewards
+
+                    </a>
+
+                  </li>
+                  <li class="dropdown navbar-item">
+                    <a class="">
+                      Roadmap
+
+                    </a>
+
+                  </li>
+                  <li class="dropdown navbar-item">
+                    <a class="">
+                      Team
+
+                    </a>
+
+                  </li>
+
+                </ul>
+              </div>
+              <div class="w-full px-10">
+                <div class="gap-7 flex items-start">
+                  <button
+                    class="sing-in font-semibold text-gray-500 border-2 leading-7 border-fuchsia-300 px-4 rounded-md">Sign
+                    In</button>
+                  <button class="free-trial font-semibold bg-fuchsia-300 text-white rounded-md px-4 py-1">Free
+                    Trial</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div class="container mx-auto pt-24 px-5 md:px-0">
+      <div class="flex flex-col lg:flex-row items-center py-15 md:justify-between">
+        <div class="flex flex-col gap-8 basis-2/4">
+          <h1 class="text-5xl font-bold text-yellow-400 capitalize w-[290px]  ">
+            The Degens
+          </h1>
+          <h1 class="text-5xl font-bold text-yellow-400 capitalize w-[290px]  ">
+            X
+          </h1>
+          <h1 class="text-5xl font-bold text-yellow-400 capitalize w-[290px]  ">
+            Willies
+          </h1>
+          <p class="text-white md:w-[400px]">The Degens caught all ‘em Genesis Wassies and saved the Solana
+            ecosystem. Now what?
+            Join the Willies, stake your NFT’s and <span class="text-yellow-500">save the metaverse!</span> </p>
+          <button class="bg-yellow-500 py-2 px-8 rounded-2xl text-black w-fit">Sillie Willies</button>
+        </div>
+        <div
+          class="flex items-center basis-2/4 lg:max-w-[50%] lg:mt-0 mt-40 max-[760px]:mt-20 max-[600px]:mt-10 max-[400px]:mt-2 flex-shrink-0">
+          <div class="relative flex items-end justify-center w-full flex-shrink-0">
+            <div class="flex flex-col items-center perspective-near perspective-origin-bottom-right">
+              <div class="-rotate-y-[26deg] flex flex-col justify-end opacity-50 h-[320px] -translate-x-5">
+                <div class="flex items-center justify-center flx-shrink-0">
+                  <img src="../assets/498.png" alt="" class="w-full h-full">
+                </div>
+                <div class="bg-white w-full  rounded-b-2xl text-center p-2 -mt-3">
+                  <p class="uppercase text-xl font-medium">willie <span class="text-yellow-500">#xxx</span>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col items-end scale-[120%]">
+              <div class="flex items-center justify-center -mt-60 max-[530px]:-mt-50 max-[440px]:-mt-40 flex-shrink-0">
+                <img src="../assets/498.png" alt="hero-image" class="w-full h-full object-cover">
+
+              </div>
+              <div class="bg-white w-full rounded-b-2xl text-center p-2 -mt-3">
+                <p class="uppercase text-xl font-medium">willie <span class="text-yellow-500">#xxx</span>
+
+              </div>
+            </div>
+            <div class="flex flex-col items-center perspective-near perspective-origin-bottom-left">
+              <div class="rotate-y-[26deg] flex flex-col justify-end opacity-50 h-[320px] translate-x-5">
+                <div class="flex">
+                  <img src="../assets/498.png" alt="" class="w-full h-full">
+                </div>
+                <div class="bg-white w-full  rounded-b-2xl text-center p-2 -mt-3">
+                  <p class="uppercase text-xl font-medium">willie <span class="text-yellow-500">#xxx</span>
+
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="relative container mx-auto px-5 pb-20 mt-25 md:px-0">
+    <div class="flex flex-col gap-12 items-center justify-center pb-20">
+      <h2 class="text-3xl capitalize text-yellow-500 font-semibold">about</h2>
+      <div class="flex flex-col gap-8 items-center justify-center lg:w-[53%] md:w-[63%] px-10">
+        <p class="text-center text-white">
+          The Willies finally woke up..3030 of ‘em to be exact...and boy, they are pissed off. Why? They are
+          starting to see suits and ties in the metaverse. They hate it.
+        </p>
+        <div class="flex flex-col items-center justify-center text-center gap-5 capitalize text-white">
+          <p>The Willies To-Do list:</p>
+          <p>
+            Seek help from The Degens, Save metaverse and enjoy metaverse,
+            Sleep Degens, this task is tailor made for us.
+          </p>
+        </div>
+        <p class="text-center text-yellow-500">
+          Let’s fuckin’ join the Willies!
+        </p>
+      </div>
+    </div>
+
+    <div class="flex xl:flex-row flex-col gap-6 justify-center xl:items-end items-center h-full xl:h-[358px]">
+      <div class="relative max-[700px]:max-w-5/6">
+        <div class="flex justify-center items-center flex-shrink-0 md:w-[488px] max-w-full h-full">
+          <img src="../assets/ax2.png" alt="" class="w-full h-full">
+        </div>
+        <div
+          class="absolute top-0 left-0 bg-slate-900 w-full h-full md:w-[480px] md:h-[420px] rotate-10 -z-10 rounded-lg">
+        </div>
+      </div>
+
+      <div
+        class="flex flex-col gap-8 basis-2/4 h-full justify-center items-center max-[470px]:text-center text-white  ">
+        <p>Okay to the boring but important stuff for a bit. In a nutshell,</p>
+        <div class="grid grid-cols-3 max-[610px]:grid-cols-2 max-[410px]:grid-cols-1 gap-6 text-sm">
+          <div
+            class="flex flex-col justify-center items-center gap-2 p-3 rounded-lg border border-yellow-500/20 bg-[#01061399] ">
+            <img src="/public/images/svg/g1.svg" alt="">
+            <p class="w-2/3 text-center">High quality 3D generated art</p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center gap-2  p-3 rounded-lg border border-yellow-500/20 bg-[#01061399] ">
+            <img src="/public/images/svg/g2.svg" alt="">
+            <p class="w-2/3 text-center capitalize">Wholesome community</p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center gap-2 p-3 rounded-lg border border-yellow-500/20 bg-[#01061399] ">
+            <img src="/public/images/svg/g3.svg" alt="">
+            <p class="w-2/3 text-center">Metaverse Integration</p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center gap-2 p-3 rounded-lg border border-yellow-500/20 bg-[#01061399] ">
+            <img src="/public/images/svg/g4.svg" alt="">
+            <p class="w-2/3 text-center">Utility token</p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center gap-2 p-3 rounded-lg border border-yellow-500/20 bg-[#01061399] ">
+            <img src="/public/images/svg/g5.svg" alt="">
+            <p class="w-2/3 text-center">Private marketplace</p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center gap-2 p-3 rounded-lg border border-yellow-500/20 bg-[#01061399] ">
+            <img src="/public/images/svg/g6.svg" alt="">
+            <p class="w-2/3 text-center">Royalities to be finalized</p>
+          </div>
+        </div>
+      </div>
+      <div class="xl:flex hidden justify-center items-center h-full">
+        <img src="../assets/Text.png" alt="" class="w-full h-full">
+      </div>
+    </div>
+    <div class="flex flex-col rounded-4xl light-border-b capitalize lg:w-2/3 w-full mx-auto mt-20 text-white">
+      <table class="min-w-full  text-center max-[630px]:text-[14px] max-[568px]:text-[12px]  max-[443px]:text-[10px]">
+        <thead>
+          <tr class="bg-cover text-[#ffb800]" style="background-image: url(../assets/Table\ bg.png);">
+            <th class="py-4 px-4 max-[507px]:px-0 border-b light-border-b">collection</th>
+            <th class="py-4 px-4 max-[507px]:px-2 border-b light-border-b">total supply</th>
+            <th class="py-4  border-b light-border-b">price</th>
+            <th class="py-4 px-4 border-b light-border-b">release date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="">
+            <td class="py-3 px-4 max-[507px]:px-0 border-b light-border-b light-border-l">The Genesis Collection
+              (Wassies)
+            </td>
+            <td class="py-3 px-4 border-b light-border-b">1010</td>
+            <td class="py-3  border-b light-border-b">2 sql</td>
+            <td class="py-3 px-4 max-[507px]:px-0 border-b light-border-b light-border-r">10th Octobar 2021</td>
+
+          </tr>
+          <tr class="">
+            <td class="py-3 px-4 max-[507px]:px-0 border-b light-border-b light-border-l">The Base Collection (Willies)
+            </td>
+            <td class="py-3 px-4 border-b light-border-b">3030</td>
+            <td class="py-3  border-b light-border-b">TBD</td>
+            <td class="py-3 px-4 border-b light-border-b light-border-r">December 2021</td>
+
+          </tr>
+          <tr class="">
+            <td class="py-3 px-4">The Uprising</td>
+            <td class="py-3 px-4">6060</td>
+            <td class="py-3 ">TBD</td>
+            <td class="py-3 px-4">Q1 2022 </td>
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      class="absolute lg:left-98 md:left-34 sm:left-22 max-[640px]:left-13 max-[440px]:left-9 max-[390px]:left-7 top-16 sm:h-100 sm:w-120 w-5/6 -z-2">
+      <img src="../assets/About Bg.png" alt="">
+    </div>
+  </section>
+
+  <section>
+    <div class=" overflow-hidden md:h-[900px] sm:h-[600px] h-[450px]">
+      <div class="relative flex flex-col gap-6 justify-center items-center mt-30 mb-50">
+        <div class="flex gap-6 max-[768px]:gap-4 justify-center items-center overflow-hidden -rotate-6">
+          <div
+            class="flex justify-center items-center flex-shrink-0 w-[100px] h-[100px] sm:w-[150px] sm:h-[150px] md:w-[250px] md:h-[250px]">
+            <img src="../assets/1.png" alt="" class="rounded-2xl w-full h-full">
+          </div>
+          <div
+            class="flex justify-center items-center flex-shrink-0 w-[100px] h-[100px] sm:w-[150px] sm:h-[150px] md:w-[250px] md:h-[250px]">
+            <img src="../assets/2.png" alt="" class="rounded-2xl w-full h-full">
+          </div>
+          <div
+            class="flex justify-center items-center flex-shrink-0 w-[100px] h-[100px] sm:w-[150px] sm:h-[150px] md:w-[250px] md:h-[250px]">
+            <img src="../assets/3.png" alt="" class="rounded-2xl w-full h-full">
+          </div>
+          <div
+            class="flex justify-center items-center flex-shrink-0 w-[100px] h-[100px] sm:w-[150px] sm:h-[150px] md:w-[250px] md:h-[250px]">
+            <img src="../assets/4.png" alt="" class="rounded-2xl w-full h-full">
+          </div>
+          <div
+            class="flex justify-center items-center flex-shrink-0 w-[100px] h-[100px] sm:w-[150px] sm:h-[150px] md:w-[250px] md:h-[250px]">
+            <img src="../assets/5.png" alt="" class="rounded-2xl w-full h-full">
+          </div>
+          <div
+            class="flex justify-center items-center flex-shrink-0 w-[100px] h-[100px] sm:w-[150px] sm:h-[150px] md:w-[250px] md:h-[250px]">
+            <img src="../assets/6.png" alt="" class="rounded-2xl w-full h-full">
+          </div>
+        </div>
+        <div
+          class="absolute -left-60 max-[768px]:-left-48 max-[640px]:-left-10 top-72 max-[768px]:top-46 max-[640px]:top-30 max-[470px]:top-28 flex gap-6 max-[768px]:gap-4 justify-center items-center overflow-hidden -rotate-6">
+          <div
+            class="flex justify-center items-center flex-shrink-0 w-[100px] h-[100px] sm:w-[150px] sm:h-[150px] md:w-[250px] md:h-[250px]">
+            <img src="../assets/7.png" alt="" class="rounded-2xl w-full h-full">
+          </div>
+          <div
+            class="flex justify-center items-center flex-shrink-0 w-[100px] h-[100px] sm:w-[150px] sm:h-[150px] md:w-[250px] md:h-[250px]">
+            <img src="../assets/8.png" alt="" class="rounded-2xl w-full h-full">
+          </div>
+          <div
+            class="flex justify-center items-center flex-shrink-0 w-[100px] h-[100px] sm:w-[150px] sm:h-[150px] md:w-[250px] md:h-[250px]">
+            <img src="../assets/9.png" alt="" class="rounded-2xl w-full h-full">
+          </div>
+          <div
+            class="flex justify-center items-center flex-shrink-0 w-[100px] h-[100px] sm:w-[150px] sm:h-[150px] md:w-[250px] md:h-[250px]">
+            <img src="../assets/10.png" alt="" class="rounded-2xl w-full h-full">
+          </div>
+          <div
+            class="flex justify-center items-center flex-shrink-0 w-[100px] h-[100px] sm:w-[150px] sm:h-[150px] md:w-[250px] md:h-[250px]">
+            <img src="../assets/11.png" alt="" class="rounded-2xl w-full h-full">
+          </div>
+          <div
+            class="flex justify-center items-center flex-shrink-0 w-[100px] h-[100px] sm:w-[150px] sm:h-[150px] md:w-[250px] md:h-[250px]">
+            <img src="../assets/12.png" alt="" class="rounded-2xl w-full h-full">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <section>
+    <div class="container mx-auto px-5 md:px-0 my-4">
+      <div class="flex gap-10 justify-center items-center">
+        <div class="h-[592px] md:flex hidden">
+          <img src="../assets/section4-1.png" alt="" class="w-full h-full">
+        </div>
+        <div class=" relative flex flex-col gap-36 items-center md:w-4/6 w-full  px-17 max-[1280px]:px-0">
+          <h1 class="text-[#ffb800] text-4xl font-bold">Invitation Letter</h1>
+          <div class="flex flex-col gap-6 justify-center items-center text-center text-xl text-white">
+            <p class="">You are reading this letter because you have been chosen to join an ancient movement established
+              by the Degen Gods themselves. The Degens have been around since the birth of humanity. We have been
+              misunderstood, shunned and sometimes even outcasted from society. But, the world as we know today is a
+              product of degeneratism. We are the dreamers, the risk takers, the contrarians.</p>
+            <p class=""> Is one world enough tho? Why not the Multiverse? </p>
+            <p class="px-8"> There has never been a better time nor place for The Degens to shine.
+              “Degens Stronk Together!”</p>
+            <p class="text-[#ffb800] text-2xl font-bold"> Now let’s join the willies and take over the Metaverse!</p>
+          </div>
+          <div class="absolute top-30 left-8 max-[1280px]:-left-9 w-32 md:flex hidden">
+            <img src="../assets/Top-section4.png" alt="" class="w-full h-full">
+          </div>
+          <div class="absolute -bottom-10 right-4 max-[1280px]:-right-9 w-32 md:flex hidden">
+            <img src="../assets/Bottom-section4.png" alt="" class="w-full h-full">
+          </div>
+        </div>
+
+        <div class="h-[592px] md:flex hidden">
+          <img src="../assets/section4-2.png" alt="" class="w-full h-full">
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
+  <section>
+    <div class="container mx-auto flex justify-center items-center px-5 md:px-0 py-20 max-[580px]:py-0">
+      <div
+        class="flex flex-col gap-10 max-[600px]:gap-4 justify-center items-center lg:w-5/6 w-full text-center bg-cover bg-center bg-no-repeat "
+        style="background-image:url(../assets/Bg.png); background-size: contain; min-height: 356px;">
+        <img src="../assets/Loader.png" alt="" class="w-10 h-18 mt-22 max-[768px]:w-7 max-[768px]:h-10">
+        <h1
+          class="text-3xl max-[768px]:text-2xl max-[600px]:text-xl max-[420px]:text-sm mb-30 max-[480px]:mb-20 font-bold text-[#ffb800]">
+          Willie Lore to be Released Soon...</h1>
+      </div>
+
+    </div>
+  </section>
+  <section>
+    <div class="container mx-auto px-5 md:px-0">
+      <div class="flex flex-col lg:gap-40 gap-20 justify-center items-center py-20">
+        <h1 class=" font-bold text-[#ffb800] text-3xl capitalize">get wassified</h1>
+        <div class="flex flex-col lg:flex-row gap-10 max-[390px]:gap-2 md:justify-between  justify-center items-center">
+          <div class="flex flex-col justify-center items-start basis-2/4 max-w-128 text-xl text-white">
+            <p>Genesis Wassies were wreaking havoc across the Solana Blockchain! People think they’re cute, alas they
+              can be a menace!
+
+            <p> Thank God, The Degens caught all of ‘em. They really are a pest.. phew </p>
+            <p> Noticed how SOL is up since all Genesis Wassies were caught?</p>
+            <p> The rest of the world thinks it’s because of low gas fees, but fuck that, we know the truth - we
+              captured all ‘em wassies!</p>
+            </p>
+          </div>
+          <div
+            class="flex items-center basis-2/4 lg:max-w-[50%] lg:mt-0 mt-40 max-[760px]:mt-20 max-[600px]:mt-10 max-[400px]:mt-2 flex-shrink-0">
+            <div class="relative flex items-end justify-center w-full flex-shrink-0">
+              <div class="flex flex-col items-center perspective-near perspective-origin-bottom-right">
+                <div class="-rotate-y-[26deg] flex flex-col justify-end opacity-50 h-[320px] -translate-x-5">
+                  <div class="flex items-center justify-center flx-shrink-0">
+                    <img src="../assets/s66.png" alt="" class="w-full h-full">
+                  </div>
+                  <div class="bg-white w-full  rounded-b-2xl text-center p-2 -mt-3">
+                    <p class="uppercase text-xl max-[480px]:text-lg max-[390px]:text-sm font-medium">willie <span
+                        class="text-yellow-500">#xxx</span>
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col items-end scale-[120%]">
+                <div
+                  class="flex items-center justify-center lg:-mt-60 -mt-85 max-[768px]:-mt-60 max-[530px]:-mt-50 max-[440px]:-mt-40 max-[380px]:-mt-30 flex-shrink-0">
+                  <img src="../assets/s66.png" alt="hero-image" class="w-full h-full object-cover">
+
+                </div>
+                <div class="bg-white w-full rounded-b-2xl text-center p-2 -mt-3">
+                  <p class="uppercase text-xl max-[480px]:text-lg max-[390px]:text-sm font-medium">willie <span
+                      class="text-yellow-500">#xxx</span>
+
+                </div>
+              </div>
+              <div class="flex flex-col items-center perspective-near perspective-origin-bottom-left">
+                <div class="rotate-y-[26deg] flex flex-col justify-end opacity-50 h-[320px] translate-x-5">
+                  <div class="flex">
+                    <img src="../assets/s66.png" alt="" class="w-full h-full">
+                  </div>
+                  <div class="bg-white w-full  rounded-b-2xl text-center p-2 -mt-3">
+                    <p class="uppercase text-xl max-[480px]:text-lg max-[390px]:text-sm font-medium">willie <span
+                        class="text-yellow-500">#xxx</span>
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
+  <section>
+    <div class="container mx-auto px-5 md:px-0 py-20">
+      <div class="flex lg:flex-row flex-col gap-7 lg:justify-between justify-center items-center">
+        <div class="flex flex-col gap-10 text-white">
+          <div class="flex flex-col text-2xl max-[520px]:text-xl max-w-180">
+            <p>What should I do once I’ve caught them you ask? Do what you want with them!
+            </p>
+            <p>Some thoughts to help you get started</p>
+          </div>
+          <div
+            class="grid grid-cols-2 max-[590px]:grid-cols-1 max-[590px]:mx-auto gap-6 max-w-150 max-[590px]:max-w-70 text-center">
+            <div class="flex flex-col gap-6">
+              <div class="flex justify-center items-center py-12 px-6 rounded-xl border-4 light-border bg-[#010613]/40">
+                <p>Get them to fetch you stuff around the house.</p>
+              </div>
+              <div class="flex justify-start items-center py-6 px-8 rounded-xl border-4 light-border bg-[#010613]/40">
+                <p>Get a job at McDonalds. Get those lil fuckers to work there for you. Feed them and take all their
+                  pay. The more the wassies you put to work the more you make. (free money yo!)</p>
+              </div>
+            </div>
+            <div class="flex flex-col gap-6">
+              <div class="flex justify-start items-center py-16 px-8 rounded-xl border-4 light-border bg-[#010613]/40">
+                <p>Throw them into the air and use them as target practice for shooting.</p>
+              </div>
+
+              <div class="flex justify-start items-center py-8 px-8 rounded-xl border light-border bg-[#010613]/40">
+                <p>Use them as punching bags (they are quite resilient to torture mind you!)</p>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="flex justify-center items-center max-h-[600px] max-[1280px]:max-h-[700px] pr-24 max-[1280px]:pr-0">
+          <img src="../assets/s7.png" alt="" class="w-full h-full max-h-[600px] max-[1280px]:max-h-[700px]">
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <section>
+    <div class="container mx-auto px-5 md:px-0">
+      <div class="flex flex-col gap-28 py-10">
+        <h1 class="text-3xl font-bold text-[#ffb800] capitalize text-center">rewards</h1>
+        <div class="flex xl:flex-row flex-col justify-center items-center xl:gap-4 gap-8 text-white w-full">
+          <div
+            class="flex flex-col px-5 py-[15px] xl:w-2/5 max-[490px]:w-full border border-yellow-500/20 bg-[#01061399] rounded-xl">
+            <div class="relative flex gap-5 justify-end max-[490px]:justify-center h-30 max-[490px]:h-60">
+              <div
+                class="absolute -top-23 -left-3 max-[490px]:left-[20%] max-[460px]:left-[15%] max-[410px]:left-[10%] max-[360px]:left-4 flex justify-center">
+                <img src="../assets/sl1.png" alt="" class="w-60 h-75">
+              </div>
+              <div class="flex justify-center text-center mt-20 max-[490px]:mt-52 max-w-50 ">
+                <p class="text-lg">If you hold 1 Genesis Wassie NFT</p>
+
+              </div>
+            </div>
+            <div class="flex max-[490px]:flex-col gap-5 max-[490px]:gap-0 justify-center items-center">
+              <div class="flex-col flex gap-2 justify-center items-center text-center mt-22 max-w-50">
+                <p>You will get</p>
+                <p class="text-3xl font-bold text-[#ffb800] leading-11">1 Willie NFT Airdrop</p>
+              </div>
+              <img src="../assets/sl2.png" alt="" class="w-50 h-65">
+            </div>
+          </div>
+          <div
+            class="flex flex-col gap-8 xl:w-3/5 h-full justify-center items-center max-[470px]:text-center text-white border border-yellow-500/20 bg-[#0d1222] rounded-xl px-9 py-6">
+            <p>All Degens club members are entitled to</p>
+            <div class="grid grid-cols-3 max-[768px]:grid-cols-2 max-[500px]:grid-cols-1 gap-6 text-sm">
+              <div
+                class="flex flex-col justify-center items-center gap-2 p-3 rounded-lg border  border-[#247cff]/10 bg-[#12182a]">
+                <img src="../assets/sr1.png" alt="">
+                <p class="w-[85%] text-center">Free Airdrops from other NFT projects</p>
+              </div>
+              <div
+                class="flex flex-col justify-center items-center gap-2  p-3 rounded-lg border border-[#247cff]/10 bg-[#12182a] ">
+                <img src="../assets/sr2.png" alt="">
+                <p class="w-5/6 max-[522px]:w-full max-[500px]:w-[85%] text-center capitalize">Early Spots for future
+                  drops & collabs</p>
+              </div>
+              <div
+                class="flex flex-col justify-center items-center gap-5 p-3 rounded-lg border border-[#247cff]/10 bg-[#12182a] ">
+                <img src="../assets/sr3.png" alt="">
+                <p class="w-5/6 max-[578px]:w-full  text-center">Exclusive Merchandise</p>
+              </div>
+              <div
+                class="flex flex-col justify-center items-center gap-2 p-3 rounded-lg border border-[#247cff]/10 bg-[#12182a] ">
+                <img src="../assets/sr4.png" alt="">
+                <p class="w-5/6 text-center">Be a Part of DAO</p>
+              </div>
+              <div
+                class="flex flex-col justify-center items-center gap-5 p-3 min-h-[141px] rounded-lg border border-[#247cff]/10 bg-[#12182a] ">
+                <img src="../assets/sr5.png" alt="">
+                <p class="w-5/6 max-[578px]:w-full text-center">Royalities to be finalized</p>
+              </div>
+              <div
+                class="flex flex-col justify-center items-center gap-1 p-3 rounded-lg border border-[#247cff]/10 bg-[#12182a] ">
+                <img src="../assets/sr6.png" alt="">
+                <p class="w-5/6 text-center">Utility token</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <section>
+    <div class="container mx-auto px-5 md:px-0">
+      <div class="flex flex-col gap-20">
+        <h1 class="text-3xl font-bold text-[#ffb800] capitalize text-center">roadmap</h1>
+        <div class="flex">
+
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <section>
+    <div class="container mx-auto px-5 md:px-0">
+      <div class="flex flex-col gap-20">
+        <h1 class="text-3xl font-bold text-[#ffb800] capitalize text-center">our team</h1>
+        <div class="flex max-[768px]:flex-col gap-80 max-[768px]:gap-20 justify-center items-center">
+          <div class="flex flex-col gap-10">
+            <img src="../assets/image 6.png" alt="" class="w-60 rounded-xl">
+            <h1 class="text-3xl font-bold text-[#ffb800] capitalize text-center">@gandalf</h1>
+          </div>
+          <div class="flex flex-col gap-10">
+            <img src="../assets/image 7.png" alt="" class="w-60 rounded-xl">
+            <h1 class="text-3xl font-bold text-[#ffb800] capitalize text-center">@zez</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <footer>
+    <div class="container mx-auto px-5 md:px-0 pt-40">
+      <div class="flex flex-col gap-5 justify-center items-center text-white">
+        <div class="flex flex-col items-center gap-5">
+          <div class="flex flex-shrink-0">
+            <img src="/public/images/svg/logo.svg" alt="logo" class="w-20">
+          </div>
+          <span class="text-5xl text-white font-semibold">THE DEGENS</span>
+        </div>
+        <p class=""></p>
+        <p class=""></p>
+        <div class="flex gap-4">
+          <a href=""><img src="/public/images/svg/Twitter.svg" alt="Twitter"></a>
+          <a href=""><img src="/public/images/svg/discord.svg" alt="discord"></a>
+          <a href=""><img src="/public/images/svg/discord.svg" alt="discord"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../myjs/script.js"></script>
+
+</body>
+
+</html>
